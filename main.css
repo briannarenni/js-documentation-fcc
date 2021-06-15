@@ -42,7 +42,7 @@ code {
 
 /*SIDEBAR SETS*/
 .sidebar {
-  min-width: 20%;
+  min-width: 25%;
   border-right: 3px solid hsl(7, 2%, 25%);
   text-decoration: none;
   list-style-type: none;
