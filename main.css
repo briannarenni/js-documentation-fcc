@@ -1,0 +1,66 @@
+:root {
+  --darkgray: hsl(7, 2%, 25%);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--dakrgray);
+  line-height: 1.5;
+  font-size: 17px;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--darkgray);
+}
+
+#reference-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+code {
+  display: block;
+  width: 100%;
+  padding: 15px;
+}
+
+.flex-container {
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/*SIDEBAR SETS*/
+.sidebar {
+  min-width: 20%;
+  border-right: 3px solid hsl(7, 2%, 25%);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/*MAIN CONTENT SETS*/
+.main-content {
+  padding: 5px;
+  margin-left: 15px;
+  overflow-y: scroll;
+}
